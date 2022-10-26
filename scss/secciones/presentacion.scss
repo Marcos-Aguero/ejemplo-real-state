@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Noto+Sans+Mono:wght@300&family=Noto+Serif:ital,wght@0,400;0,700;1,700&family=Open+Sans:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.presentacion{
+    background: url("../img/casita-piola.png");
+    background-size: cover;
+    width: 90%;
+    height: 75vh;
+    margin: auto;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 10px 10px 34px 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 34px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 34px 3px rgba(0,0,0,0.3);
+
+    &__titulo{
+        padding: 4rem;
+        h1{
+            font-size: 35px;
+        }
+        h3{
+            padding-top: 1.5rem;
+            font-size: 15px;
+        } 
+    }
+    &__compras{
+        display: flex;
+        align-items: center;
+        width: 20rem;
+        margin-top: 10rem;
+        margin-left: 4rem;
+        background: rgba(250, 250, 250,0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 20px 20px 0 0;
+        a{
+            padding: 1rem 2rem;
+            list-style-type: none;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+        }
+        
+    }
+    &__locacion{
+        display: flex;
+        align-items: center;
+        background: rgba(250, 250, 250,0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 0 20px 20px 20px;
+        margin-left: 4rem;
+        width: 45rem;
+        .location, .property, .Price {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            a{
+                padding: 1rem 2rem 0.5rem 2rem;
+                list-style-type: none;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #000;
+                font-weight: 700;
+            }
+            p{
+                padding: 0.5rem 2rem 1rem 2rem;
+            }
+        }
+        .lupacontainer{
+            .lupa{
+            width: 40px;
+            }
+        }
+    }
+}
